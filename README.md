@@ -1,15 +1,15 @@
 # CodeCanvas LandingPage
 Landing Page for codecanvas
 # Last Update Log
-last update: 3-May 
-user: Dipen
-status: 80%
-remaning task: 
-    make a slider with only html css
-    add javascript to make the slider work
-    add javascript or api to validate email input
-UnderWorkNote: 
-    Removed the images to update new once and check padding and margin
+last update: 3-May<br> 
+user: Dipen<br> 
+status: 80%<br> 
+remaning task: <br> 
+    make a slider with only html css<br> 
+    add javascript to make the slider work<br> 
+    add javascript or api to validate email input<br> 
+UnderWorkNote: <br> 
+    Removed the images to update new once and check padding and margin<br> 
 
 # CodeCanvas
 CodeCanvas is a comprehensive platform that offers a vast collection of code snippets in various programming languages. It provides users with the ability to browse and explore code examples, making it a valuable resource for developers of all skill levels.
