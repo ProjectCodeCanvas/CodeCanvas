@@ -15,6 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code-Canvas-Landing-Page</title>
     <link rel="stylesheet" href="CSS/Code-Canvas-Landing-Page.css" type="text/css">
+    <script src="JS/Code-Canvas-Landing-Page.js"></script>
 </head>
 <body class="body">
     <!-- circle - 1 (Header + Content) -->
@@ -24,19 +25,19 @@
                 <img src="images/landing/codecanvaslogo.png" alt="Loading...">
                 <div class="circle-1-nav-menu">
                     <nav class="circle-1-nav-menu-options">
-                        <a href="" class="landing-section1-nav-options-link" id="about">About</a>
-                        <a href="" class="landing-section1-nav-options-link" id="features-drop">Features</a>
+                        <a href="#circle-4-footer" class="landing-section1-nav-options-link" id="about">About</a>
+                        <a href="" class="landing-section1-nav-options-link" id="Dashboard">Dashboard</a>
                         <a href="" class="landing-section1-nav-options-link" id="components">Components</a>
-                        <a href="" class="landing-section1-nav-options-link" id="dashboard">Dashboard</a>
+                        <a href="" class="landing-section1-nav-options-link" id="pricing">pricing</a>
                     </nav>
-                    <div class="circle-1-nav-menu-button">
+                    <div class="circle-1-nav-menu-button" id="circle-1-nav-menu-button-div">
                         <div class="circle-1-nav-menu-button-logo">
-                            <a href="" class="drop-link"><img src="images\landing\dropdown.svg" alt="B" style="width: 14px;"></a>
-                            <div class="circle-1-nav-dropdown-menu">
+                            <img src="images\landing\dropdown.svg" alt="B" style="width: 14px;" id="drop-link-img">
+                            <div class="circle-1-nav-dropdown-menu" id="circle-1-nav-dropdown-menu-div">
                                 <a href="" class="dropdown-link">About</a>
-                                <a href="" class="dropdown-link">Features</a>
-                                <a href="" class="dropdown-link">Components</a>
                                 <a href="" class="dropdown-link">Dashboard</a>
+                                <a href="" class="dropdown-link">Components</a>
+                                <a href="" class="dropdown-link">pricing</a>
                             </div>
                         </div>
                     </div>
@@ -167,7 +168,7 @@
             </div>
         </div>
     </div>
-    <!-- circle - 4 (Footer) -->
+    <!-- circle - 4 (Footer-1) -->
     <div class="circle-4-community">
         <div class="circle-4-community-holder">
             <h2>Get updates from our community</h2>
@@ -186,7 +187,77 @@
             </div>
         </div>
     </div>
-    <div class="circle-4-footer">
+    <!-- circle - 4 - accordian -->
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title">À quelle fréquence doit-on remplacer son chauffe-eau?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Aux 10 à 12 ans.   Avec les années, la rouille causée par l’eau endommage le contenant de métal. Soyez aux aguets : l’apparition des premiers signes de rouille, d'humidité au toucher du réservoir et le changement de coloration de l'eau chaude (rougeâtre) sont autant de signes avant-coureurs que la durée de vie de votre chauffe-eau arrive à échéance.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false">
+              <span class="accordion-title">Why is the sky blue?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                Ut tortor pretium viverra suspendisse potenti.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false">
+              <span class="accordion-title">Will we ever discover aliens?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                Ut tortor pretium viverra suspendisse potenti.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false">
+              <span class="accordion-title">How much does the Earth weigh?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                Ut tortor pretium viverra suspendisse potenti.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title">How do airplanes stay up?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+                Ut tortor pretium viverra suspendisse potenti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- circle - 4 (footer-2) -->
+    <div class="circle-4-footer" id="circle-4-footer">
         <div class="circle-4-footer-holder">
             <div class="circle-4-footer-links">
                 <a href="" class="circle-4-footer-link">Email</a>
@@ -198,5 +269,6 @@
             </div>
         </div>
     </div>
+    <script src="JS/Code-Canvas-Landing-Page-Accordian.js"></script>
 </body>
 </html>
