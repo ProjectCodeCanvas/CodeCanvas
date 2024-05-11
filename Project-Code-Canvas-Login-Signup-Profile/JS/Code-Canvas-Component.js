@@ -1,11 +1,11 @@
-// slider - manas
+
 let isSideBarOpen = true;
 document.getElementById("sideBarTargetBtn").addEventListener("click", sideBarToggleHandler);
 
 function sideBarToggleHandler() {
     console.log("here");
-    const sidebar = document.getElementById("container");
-    const mainContent = document.getElementById("main-content");
+    var sidebar = document.getElementById("container");
+    var mainContent = document.getElementById("main-content");
     if (isSideBarOpen) {
         // Close the sidebar by adding a class that translates it to the left
         sidebar.classList.add("sidebar-hidden");
@@ -23,7 +23,7 @@ function sideBarToggleHandler() {
 
 
 // Get all the anchor tags inside the links container
-const links = document.querySelectorAll("#links .link");
+var links = document.querySelectorAll("#links .link");
 
 // Add click event listeners to each anchor tag
 links.forEach(function(link) {

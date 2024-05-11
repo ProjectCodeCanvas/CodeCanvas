@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('signup-form').addEventListener('submit', function(event) {
         event.preventDefault();
-        const email = document.getElementById('email').value;
-        const username = document.getElementById('username').value;
-        const password = document.getElementById('password').value;
+        var email = document.getElementById('email').value;
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
 
         if (email.trim() === '') {
             alert('Please enter your email address.');
