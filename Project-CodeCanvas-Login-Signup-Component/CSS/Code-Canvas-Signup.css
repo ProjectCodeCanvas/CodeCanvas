@@ -1,7 +1,19 @@
+/* Linking Downloaded Google Fonts */
+@font-face {
+    font-family: 'Gothic A1';
+    src: url('../Fonts\(Google-Fonts\)/Gothic_A1/GothicA1-Regular.ttf') format('truetype');
+}
+
 body {
+    
     background-color: rgb(43, 43, 43); /* Change the background color around the container */
   }
-  
+*{
+  font-family: 'Gothic A1' !important ;
+}
+a {
+  text-decoration: none;
+}
   .login-container {
     width: 75%;
     position: absolute;

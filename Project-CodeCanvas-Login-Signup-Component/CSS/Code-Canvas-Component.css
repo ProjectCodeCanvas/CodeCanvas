@@ -20,9 +20,10 @@ body {
 }
 .logoAndNavButton{
   display: flex;
-  gap: 100px;
+  gap: 0px;
 }
 .logoAndNavButton button{
+  padding-bottom: 14px;
   background: transparent;
   /* width:; */
   border: 0;
@@ -30,6 +31,7 @@ body {
 
 }
 .logo{
+  padding-top: 5px;
   height: 40px;
   margin-left: 20px;
 }
