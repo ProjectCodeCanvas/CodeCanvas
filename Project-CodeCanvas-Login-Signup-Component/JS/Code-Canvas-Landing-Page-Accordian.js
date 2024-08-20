@@ -13,3 +13,5 @@ function toggleAccordion() {
 }
 
 items.forEach((item) => item.addEventListener('click', toggleAccordion));
+
+let colors = ['white','orange','green','red','blue','black'];
